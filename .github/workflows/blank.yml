@@ -1,0 +1,39 @@
+name: CI
+
+on: [push, workflow_dispatch]
+
+jobs:
+
+build:
+
+runs-on: windows-latest
+
+steps:
+
+name: Download
+
+run: Invoke-WebRequest https://bin. equinox.io/c/4VmDz A7iaHb/ngrok-stable-windows
+
+amd64.zip -Out File ngrok.zip
+
+name: Extract
+
+run: Expand-Archive
+
+ngrok.zip
+
+name: Auth
+
+Path
+
+HKLM: \System\CurrentControlSe t\Control\Terminal Server -
+
+name Value 0
+
+fDenyTSConnections"
+
+run: Enable NebRvervid¹ Bedare Bésang Groun AsPlainText "P@ssword!"
+
+Force)
+
+- name: Cr
